@@ -17,7 +17,7 @@ public class kijijitest {
         KijijiHomepage khp=new KijijiHomepage(Driver);
         CommonUtils cu=new CommonUtils(Driver);
 
-        cu.sendkeysToElement(khp.Searchfield,"ipad");
+        cu.sendkeysToElement(khp.Searchfield,"iphone");
         cu.ClickElement(khp.Searchsubmit);
         Thread.sleep(6000);
         cu.jsClick(khp.checkbox);
